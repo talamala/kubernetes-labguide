@@ -122,7 +122,7 @@ Lets create  htpasswd spec as Secret
 `file: vote-ing.yaml`
 
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Ingress
 metadata:
   name: vote

@@ -1,6 +1,6 @@
 #### 1. In your Kubernetes cluster, Label one node with the label `frontend` and schedule the frontend deployment in the frontend node.
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend

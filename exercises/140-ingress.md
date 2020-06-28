@@ -12,7 +12,7 @@ service port: 80
 ```
 ```
 [frontend-deployment]
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend

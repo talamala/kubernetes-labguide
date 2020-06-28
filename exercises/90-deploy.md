@@ -22,7 +22,7 @@
 
 #### 5. For the following application, fix and fill in the missing details.
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: deployment
 metadata:
   labels:

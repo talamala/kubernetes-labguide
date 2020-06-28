@@ -86,7 +86,7 @@ In order to achieve this you, as a user would create a **ingress** object with a
 `file: vote-ing.yaml`
 
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Ingress
 metadata:
   name: vote
@@ -226,7 +226,7 @@ And then add annotations to the ingress object so that it is read by the ingress
 `file: vote-ing.yaml`
 
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Ingress
 metadata:
   name: vote
